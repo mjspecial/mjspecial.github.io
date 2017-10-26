@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>统一建模语言理论测试</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
 </head>
 <style>
  .row-margin-left {
@@ -12,7 +12,7 @@
  }
 </style>
 <body>
-<div class="container-fluid">
+<div class="container">
 	<div class="row-margin-left">
 		<h1>统一建模语言理论测试</h1>
 		<div class="row">
@@ -27,46 +27,42 @@
 				<p>班级:</p>
 			</div>
 			<div class="col-md-2" >
-				<input type="text"  class="form-control" style="padding-left:10px;"placeholder="1班">
+				<input type="text" placeholder="1班">
 			</div>
 			<div class="col-md-1">
 				<p>学号:</p>
 			</div>
 			<div class="col-md-2">
-				<input type="text" class="form-control" placeholder="001">
+				<input type="text" placeholder="001">
 			</div>
 			<div class="col-md-1">
 				<p>姓名:</p>
 			</div>
 			<div class="col-md-2">
-				<input type="text" class="form-control" placeholder="王小闹">
+				<input type="text" placeholder="王小闹">
 			</div>
 		</div>
 	</div>
+
 	<div class="row-margin-left">
 		<p><h2>一、填空题（每空5分，共20分）</h2></p>
 		<div calss="row">
-			<div class="col-md-3">
+			<div class="col-md-2">
 				<p>1.UML的中文全称是：</p>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-2">
 				<label>
-					<input type="text" class="form-control" placeholder="统一建模语言">
+					<input type="text"  placeholder="统一建模语言">
 				</label>
 			</div>
 		</div>
+		
 		<div class="row">
-			<div class="col-md-2">
-				<p>2.对象最突出的特征是：</p>
-			</div>
-			<div calss="col-md-3">
-				<input type="text" class="form-control" placeholder="封装性">
-			</div>
-			<div calss="col-md-3">
-				<input type="text" class="form-control" placeholder="多态性">
-			</div>
-			<div calss="col-md-3">
-				<input type="text" class="form-control" placeholder="继承性">
+			<div class="col-md-12">
+				<p class="col-md-2">2.对象最突出的特征是:</p>
+				<input type="text" class="col-md-2" placeholder="封装性">
+				<input type="text" class="col-md-2" style="margin-left:5px;" placeholder="多态性">
+				<input type="text" class="col-md-2" style="margin-left:5px;" placeholder="继承性">
 			</div>
 		</div>	
 	</div>
@@ -191,6 +187,9 @@
 		</div>
 	</div>
 </div>
-<button type="button">计算分数</button>
+
+<div class="row-margin-left">
+	<button type="button">计算分数</button>
+</div>
 </body>
 </html>
